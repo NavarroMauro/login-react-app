@@ -31,7 +31,7 @@ export default class Logout extends Component {
         <div className="container my-4">
           <div className="jumbotron">
             <h2 className="title">
-              You just logged out! In <span style={{color:"red", fontWeight:"600", fontSize:"3rem"}}>{this.state.count}</span> secs you will be
+              You just logged out! In <span style={{color:"red", fontWeight:"600", fontSize:"2rem"}}>{this.state.count}</span> secs you will be
               redirected to home page!
             </h2>
             <p className="lead">
